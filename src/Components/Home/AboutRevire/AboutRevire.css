@@ -1,0 +1,31 @@
+
+.aboutRevire h1, h2{
+    font-family: Cambria;
+    font-weight: bold;
+}
+.aboutRevire h1{
+    font-size:53px;
+}
+.aboutRevire h5{
+    color: dimgray;
+}
+.main-text-about{
+    margin-top:-100px;
+}
+.main-text-about > h2{
+    color: rgb(65, 5, 15);
+}
+.ai-part{
+    color: rgb(206, 98, 26);
+}
+
+/* .revire-ai{
+    position: relative;
+    animation: jumping 2s infinite;
+    animation-direction: alternate;
+}
+  
+@keyframes jumping {
+    0%   {color: black; bottom: 0px;}
+    100%  {color: rgb(145, 22, 216); bottom: 100px;}
+  } */

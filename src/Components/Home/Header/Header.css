@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Baloo+2&family=Cormorant+Garamond:wght@300&family=Great+Vibes&family=Ubuntu:wght@300&display=swap');
+
+
+.whole-header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+.book-demo{
+    border-radius: 20% !important;
+    margin-top: 20px;
+    font-weight: 600 !important;
+}
+.header-text h1{
+    color: rgb(9, 9, 70);
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 53px
+}
+.header-text{
+    font-family: Sora, Helvetica,Arial,sans-serif;
+    color: rgb(9, 9, 70);
+}
+
+.header-part-one{
+    position: relative;
+    animation: header-one 2s ease;
+}
+.header-part-two{
+    position: relative;
+    animation: header-two 2s ease;
+}
+  
+@keyframes header-one {
+    0%   {right:400px}
+    100% {right:0px}
+}
+
+@keyframes header-two {
+    0%   {left:400px}
+    100% {left:0px}
+}

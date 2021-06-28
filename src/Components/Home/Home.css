@@ -1,0 +1,12 @@
+.first-part{
+    background-image: linear-gradient(30deg, #c1ebe9a6, #dfdabf86, #DDF6F1, #ffffffdc)
+}
+.color-part-two{
+    background-color: #FDFAF3;
+    height: 100vh;
+}
+
+.dark-blue{
+    color: rgb(71, 71, 71);
+    vertical-align: baseline;
+}

@@ -1,0 +1,14 @@
+.big-anim-title{
+    font-size: 49px;
+    font-weight: bold;
+}
+.text-of-bigAnim{
+    margin-bottom: 100px;
+}
+.big-anim{
+    background-image: linear-gradient(180deg, #c1ebe9a6, #dfdabf86, #DDF6F1, #FDFAF3);
+    margin-top:100px;
+}
+.main-anim-img{
+    width: 90%;
+}

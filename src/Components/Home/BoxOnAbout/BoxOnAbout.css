@@ -1,0 +1,12 @@
+.main-box{
+    padding: 30px;
+    border-radius:20px;
+    margin-top: -100px;
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgb(161, 160, 160);
+    font-family: Sora, Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 100px;
+    background-image: linear-gradient(30deg, rgb(86, 73, 199), rgb(165, 28, 219));
+}

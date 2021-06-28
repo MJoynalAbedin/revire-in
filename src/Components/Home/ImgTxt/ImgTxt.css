@@ -1,0 +1,18 @@
+.ImgTxt-part-one{
+    position: relative;
+    animation: ImgTxt-one 2s ease 3s;
+}
+.ImgTxt-part-two{
+    position: relative;
+    animation: ImgTxt-two 2s ease 3s;
+}
+  
+@keyframes ImgTxt-one {
+    0%   {right:400px}
+    100% {right:0px}
+}
+
+@keyframes ImgTxt-two {
+    0%   {left:400px}
+    100% {left:0px}
+}
