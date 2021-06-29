@@ -1,0 +1,11 @@
+@media (max-width: 768px){
+    .slider-parent{
+        display: flex !important;
+        flex-direction: column!important;
+        align-items: center;
+        overflow: scroll;
+    }
+    .slider-heading{
+        text-align: center
+    }
+}

@@ -29,3 +29,17 @@
     0%   {color: black; bottom: 0px;}
     100%  {color: rgb(145, 22, 216); bottom: 100px;}
   } */
+
+@media (max-width: 768px) {
+    .revire-ai{
+        font-size: 30px !important;;
+    }
+    .main-text-about h2, .main-text-about h5{
+        font-size: 16px;
+        text-align: left;
+    }
+    .aboutRevire{
+        height: 35vh!important;
+        margin-bottom: 40px;
+    }
+}

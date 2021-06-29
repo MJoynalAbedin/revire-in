@@ -42,3 +42,17 @@
     0%   {left:400px}
     100% {left:0px}
 }
+
+@media (max-width:768px) {
+    .header-part-two > img{
+        width: 90%!important;
+        margin-top:30px;
+    }
+    .header-part-two{
+        display:flex;
+        justify-content:center
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+}

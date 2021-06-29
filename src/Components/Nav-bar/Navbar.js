@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar my-nav-bar fixed-top navbar-expand-lg navbar-light bg-of-nav">
-        <div className="container-fluid m-2">
-          <a className="navbar-brand ms-5 revire-logo" href="/www">
+        <div className="container-fluid">
+          <a className="navbar-brand ms-md-5 revire-logo" href="/www">
             REVIRE
           </a>
           <button

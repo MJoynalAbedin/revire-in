@@ -1,9 +1,12 @@
 import React from 'react';
+import './Slider.css'
 
 const Slider = () => {
     return (
-        <div style={{fontFamily:'Sora, Helvetica,Arial,sans-serif'}} className="d-flex container align-items-center justify-content-center"> 
-            <h1 className="fw-bold">The reviews of our clients</h1>
+        <div style={{fontFamily:'Sora, Helvetica,Arial,sans-serif'}} className="d-flex container slider-parent align-items-center justify-content-center"> 
+            <div>
+                <h1 className="fw-bold slider-heading">The reviews of our clients</h1>
+            </div>
             <div style={{height: '300px', width: '100%'}} id="carouselExampleControls" className="carousel slide p-5 rounded" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -63,7 +66,7 @@ const Slider = () => {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
-                </div>
+            </div>
         </div>
     );
 };

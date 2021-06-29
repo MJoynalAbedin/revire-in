@@ -3,10 +3,10 @@ import './ImgTxt.css'
 
 const ImgTxt = ({imgRight, imgLeft, headingRight, headingLeft, paragraphRight, paragraphLeft}) => {
     return (
-        <div style={{height: '900px'}} className="whole-ImgTxt d-flex align-items-center">
+        <div style={{height: '100%'}} className="whole-ImgTxt d-flex align-items-center">
             <div className="m-3">
                 <div className="row">
-                    <div className="col-md-6 ImgTxt-part-one">
+                    <div className="col-md-6 mb-5 d-flex justify-content-center ImgTxt-part-one">
                         <img className="shadow" style={{width: '90%', borderRadius: '10px'}} src={imgLeft} alt="" />
                     </div>
                     <div className="col-md-6 d-flex align-items-center ImgTxt-part-two">
@@ -33,7 +33,7 @@ const ImgTxt = ({imgRight, imgLeft, headingRight, headingLeft, paragraphRight, p
                             <button className="btn btn-outline-success">Learn More</button>
                         </div>
                     </div>
-                    <div className="col-md-6 ImgTxt-part-two">
+                    <div className="mt-5 col-md-6 d-flex justify-content-center ImgTxt-part-two">
                         <img className="shadow" style={{width: '90%', borderRadius: '10px', float: 'right'}} src={imgRight} alt="" />
                     </div>
                 </div>

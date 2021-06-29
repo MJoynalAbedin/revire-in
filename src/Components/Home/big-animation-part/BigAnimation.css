@@ -12,3 +12,14 @@
 .main-anim-img{
     width: 90%;
 }
+.text-of-bigAnim{
+    width: 50%
+}
+@media (max-width: 768px) {
+    .big-anim-title{
+        font-size: 30px;
+    }
+    .text-of-bigAnim{
+        width: 90%!important;
+    }
+}
