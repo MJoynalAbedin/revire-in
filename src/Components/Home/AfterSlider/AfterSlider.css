@@ -1,0 +1,12 @@
+.for-everyone{
+    background-image: linear-gradient(30deg, #DBF5EC, #FEDACD);
+    padding: 50px;
+    border-radius:20px
+}
+.two-box{
+    background-color: #B1EFE3;
+    height: 150px;
+    padding: 20px;
+    border-radius:10px;
+    width: 200px;
+}

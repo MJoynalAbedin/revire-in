@@ -5,15 +5,14 @@ const Slider = () => {
     return (
         <div style={{fontFamily:'Sora, Helvetica,Arial,sans-serif'}} className="d-flex container slider-parent align-items-center justify-content-center"> 
             <div>
-                <h1 className="fw-bold slider-heading">The reviews of our clients</h1>
+                <h1 style={{fontSize:'43px'}} className="fw-bold slider-heading">Our fans have a ton to say!</h1>
             </div>
             <div style={{height: '300px', width: '100%'}} id="carouselExampleControls" className="carousel slide p-5 rounded" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="d-flex justify-content-between dark-blue">
                             <div style={{width: '40%'}}>
-                                <p>Booked Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus non, inventore laborum
-                                eaque optio vel unde aut odio sint quia.</p>
+                                <p>Booked Lorem ipsum dolor sit amet</p>
                                 <h6 className="fw-bold">The Lorem ipsum dolor, sit amet consectetur adipisicing.</h6>
                                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, esse.</p>
                             </div>
@@ -28,8 +27,7 @@ const Slider = () => {
                     <div className="carousel-item">
                     <div className="d-flex justify-content-between dark-blue">
                             <div style={{width: '40%'}}>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus non, inventore laborum
-                                eaque optio vel unde aut odio sint.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus non, inventore laborum</p>
                                 <h6 className="fw-bold">The Lorem ipsum dolor, sit amet consectetur adipisicing.</h6>
                                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, esse.</p>
                             </div>
@@ -44,10 +42,9 @@ const Slider = () => {
                     <div className="carousel-item">
                     <div className="d-flex justify-content-between dark-blue">
                             <div style={{width: '40%'}}>
-                                <p>"I booked Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus non, inventore laborum
-                                eaque optio vel unde aut odio sint quia."</p>
+                                <p>"I booked Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                 <h6 className="fw-bold">The Lorem ipsum dolor, sit amet consectetur adipisicing.</h6>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, esse.</p>
+                                <p> Lorem ipsum dolor sit</p>
                             </div>
                             <div style={{width: '40%'}}>
                                 <p>"Possimus non, inventore laborum

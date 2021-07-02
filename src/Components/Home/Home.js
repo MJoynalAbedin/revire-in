@@ -8,6 +8,10 @@ import Profit from '../../images/project.png';
 import Slider from './Slider/Slider.js';
 import BigAnimation from './big-animation-part/BigAnimation.js';
 import './Home.css';
+import FourColumn from './FourColumn/FourColumn.js';
+import AfterSlider from './AfterSlider/AfterSlider.js';
+import Footer from './Footer/Footer.js';
+import OnFooter from './OnFooter/OnFooter.js';
 
 const Home = () => {
     return (
@@ -42,7 +46,11 @@ const Home = () => {
             <BigAnimation />
             <div className="color-part-two pb-5 pt-5">
                 <Slider />
+                <AfterSlider />
+                <FourColumn />
             </div>
+            <OnFooter />
+            <Footer />
         </div>
     );
 };
